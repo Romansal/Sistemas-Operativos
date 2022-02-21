@@ -1,0 +1,106 @@
+<style>
+
+  
+    :host {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size: 14px;
+      color: #333;
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 8px 0;
+    }
+  
+    p {
+      margin: 0;
+    }
+  
+   
+  
+    .content {
+      display: flex;
+      margin: 82px auto 32px;
+      padding: 0 16px;
+      flex-direction: column;
+      align-items: center;
+    }
+    .intro{
+       display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 100px;
+      margin-left: 20px;
+      
+
+}
+ 
+    /* Responsive Styles */
+    @media screen and (max-width: 767px) {
+      .card-container > *:not(.circle-link) ,
+      .terminal {
+        width: 100%;
+      }
+  
+      .card:not(.highlight-card) {
+        height: 16px;
+        margin: 8px 0;
+      }
+  
+      .card.highlight-card span {
+        margin-left: 72px;
+      }
+  
+    
+    }
+  
+    @media screen and (max-width: 575px) {
+      svg#rocket-smoke {
+        display: none;
+        visibility: hidden;
+      }
+
+      
+    }
+  
+  
+  </style>
+
+
+<div class="intro">
+    <h4>¡La informacion fue almacena exitosamente!</h4>
+   
+ </div> 
+ 
+ <div class="content">
+    <div class="table-responsive-sm">
+        <table class="table">
+            <tr>
+                <th>Nombre</th>
+                <th>Primer Apellido</th>
+                <th>Segundo Apellido</th>
+                <th>Fecha de Nacimiento</th>
+                <th>Correo Electronico</th>
+                <th>Telefono de Contacto</th>
+                <th>Nombre del servicio</th>
+                <th>Codigo del servicio</th>
+                <th></th>
+                
+            </tr>
+         
+        </table>
+
+        <div class="content">
+            <button type="submit" class="btn btn-primary" routerLink='/inicio'> Continuar</button>
+           
+            </div>
+ 
+    </div>
+</div>
